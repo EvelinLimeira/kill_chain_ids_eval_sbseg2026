@@ -1,0 +1,130 @@
+ACADEMIC ARTIFACT EVALUATION LICENSE
+
+Version 1.0 - August 2026
+
+Copyright (c) 2026 Centro de Estudos e Sistemas Avancados do Recife (CESAR),
+through the Center for Security in Advanced Systems (CISSA). All rights
+reserved.
+
+Authors and contributors:
+Evelin E. D. Limeira, Rafael Roque, Luciano Cabral, Fernando Aires,
+Wellison R. M. Santos, and Milton Lima.
+
+1. Ownership
+
+The software, source code, models, configurations, documentation, and
+project-generated results contained in this artifact (collectively, the
+"Artifact") are proprietary materials of CESAR/CISSA. Authorship and other
+moral rights are preserved as provided by applicable law. No ownership right
+is transferred under this license.
+
+2. Limited permission for artifact evaluation
+
+Subject to the conditions below, CESAR/CISSA grants members of the Technical
+Artifact Committee (CTA), reviewers, and authorized organizers of SBSeg 2026 a
+limited, non-exclusive, non-transferable, revocable, and royalty-free
+permission to access, copy as technically necessary, install, execute, and
+inspect the Artifact solely for:
+
+  a. evaluating the artifact associated with the paper "Beyond Aggregate
+     Accuracy: Kill Chain-Aware Evaluation of IoMT Intrusion Detection
+     Models"; and
+  b. verifying the scientific claims reported in that paper during the SBSeg
+     2026 artifact-evaluation process.
+
+This permission includes execution in local machines, virtual machines, and
+containers controlled by the authorized evaluator. Reasonable internal notes
+and evaluation reports may be created for the confidential review process.
+
+3. Restrictions
+
+Except with prior written authorization from CESAR/CISSA, recipients may not:
+
+  a. use the Artifact for commercial, production, operational, consulting,
+     teaching, or research purposes outside the evaluation described above;
+  b. publish, disclose, distribute, sublicense, sell, rent, lend, transfer, or
+     otherwise make the Artifact or substantial portions of it available to
+     any third party;
+  c. incorporate the Artifact into another product, service, dataset, model,
+     repository, or derivative work;
+  d. remove or alter copyright, ownership, attribution, confidentiality, or
+     licensing notices;
+  e. attempt to identify confidential information, credentials, personal data,
+     or trade secrets that are not necessary for the scientific evaluation;
+     or
+  f. use the Artifact or its results to train or improve a commercial model or
+     service.
+
+Technical modifications that are strictly necessary to install, execute,
+debug, or evaluate the Artifact are permitted only within the authorized
+evaluation environment and may not be redistributed.
+
+4. Confidentiality and access
+
+The Artifact is supplied through access mechanisms authorized for the SBSeg
+2026 artifact-evaluation process. Recipients must use reasonable safeguards to
+prevent unauthorized access. Access credentials, if any, are personal and may
+not be shared. Public availability of the accompanying scientific paper does
+not make the Artifact public or open source.
+
+5. End of evaluation and retention
+
+The permission granted by this license ends when the recipient's participation
+in the SBSeg 2026 artifact-evaluation process ends, or earlier upon written
+request from CESAR/CISSA. After that time, recipients must cease using the
+Artifact and delete locally retained copies, except where the conference must
+retain a submission copy under its official archival or record-retention
+policy. Any such retained copy remains subject to this license.
+
+6. Third-party materials
+
+This license applies only to materials for which CESAR/CISSA holds the
+necessary rights. Third-party software and dependencies remain governed by
+their respective licenses.
+
+The CICIoMT2024 dataset is not licensed or redistributed as part of this
+Artifact. It must be obtained separately and remains subject to the terms
+established by its provider, the Canadian Institute for Cybersecurity and any
+authorized distribution platform.
+
+7. No warranty
+
+THE ARTIFACT IS PROVIDED "AS IS" AND WITHOUT WARRANTIES OF ANY KIND, WHETHER
+EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. THE RECIPIENT
+ASSUMES ALL RISKS ARISING FROM INSTALLATION, EXECUTION, AND EVALUATION.
+
+8. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, CESAR/CISSA, THE AUTHORS,
+AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGE, OR FOR LOSS OF DATA, PROFITS, OR BUSINESS,
+ARISING FROM ACCESS TO OR USE OF THE ARTIFACT.
+
+9. No endorsement and no patent grant
+
+This license does not grant trademark rights, imply endorsement by
+CESAR/CISSA, or grant any patent license. The names and marks of CESAR, CISSA,
+SBSeg, SBC, and the authors may not be used to promote a product or service
+without the respective holder's prior written authorization.
+
+10. Contact and additional permissions
+
+Requests for use beyond the SBSeg 2026 artifact evaluation must be submitted
+to the CESAR/CISSA representative identified by the authors through the
+official submission platform. Additional permission is effective only when
+granted in writing by an authorized representative of CESAR/CISSA.
+
+11. Authorization condition
+
+Distribution of this Artifact under this license is valid only after approval
+by an authorized representative of CESAR/CISSA. Inclusion of this license in a
+working copy does not, by itself, represent or replace that institutional
+approval.
+
+Funding notice
+
+This work was fully funded by the projects "Xeque-Mate Agente & Agregador",
+supported by CISSA/CESAR with resources from the PPI IoT/Manufatura 4.0 of the
+MCTI, grant numbers CIS-AFCCT-2025-5-1-2 and CIS-AFCCT-2025-5-1-1, signed with
+EMBRAPII.

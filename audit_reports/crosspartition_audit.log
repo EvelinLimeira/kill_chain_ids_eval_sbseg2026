@@ -1,0 +1,95 @@
+[19:28:03] INFO: Data dir: /mnt/d/ares_paper/iomt_ids_project_autoencoder_improved/ares_autoencoder_improved_iomt_ids/data
+[19:28:03] INFO: Features: 45 colunas
+[19:28:03] INFO: ============================================================
+[19:28:03] INFO: Auditando partição de TREINO...
+[19:28:03] INFO:   ARP_Spoofing_train.pcap.csv: 16,047 rows  unique so far: 16,010
+[19:28:04] INFO:   Benign_train.pcap.csv: 192,732 rows  unique so far: 208,742
+[19:28:05] INFO:   MQTT-DDoS-Connect_Flood_train.pcap.csv: 173,036 rows  unique so far: 381,778
+[19:28:05] INFO:   MQTT-DDoS-Publish_Flood_train.pcap.csv: 27,623 rows  unique so far: 409,401
+[19:28:05] INFO:   MQTT-DoS-Connect_Flood_train.pcap.csv: 12,773 rows  unique so far: 422,174
+[19:28:05] INFO:   MQTT-DoS-Publish_Flood_train.pcap.csv: 44,376 rows  unique so far: 466,550
+[19:28:06] INFO:   MQTT-Malformed_Data_train.pcap.csv: 5,130 rows  unique so far: 471,680
+[19:28:06] INFO:   Recon-OS_Scan_train.pcap.csv: 16,832 rows  unique so far: 485,894
+[19:28:06] INFO:   Recon-Ping_Sweep_train.pcap.csv: 740 rows  unique so far: 486,583
+[19:28:06] INFO:   Recon-Port_Scan_train.pcap.csv: 83,981 rows  unique so far: 560,468
+[19:28:06] INFO:   Recon-VulScan_train.pcap.csv: 2,173 rows  unique so far: 562,500
+[19:28:06] INFO:   TCP_IP-DDoS-ICMP1_train.pcap.csv: 194,938 rows  unique so far: 576,741
+[19:28:07] INFO:   TCP_IP-DDoS-ICMP2_train.pcap.csv: 194,818 rows  unique so far: 584,446
+[19:28:08] INFO:   TCP_IP-DDoS-ICMP3_train.pcap.csv: 189,710 rows  unique so far: 670,261
+[19:28:08] INFO:   TCP_IP-DDoS-ICMP4_train.pcap.csv: 192,741 rows  unique so far: 726,525
+[19:28:09] INFO:   TCP_IP-DDoS-ICMP5_train.pcap.csv: 195,032 rows  unique so far: 732,862
+[19:28:09] INFO:   TCP_IP-DDoS-ICMP6_train.pcap.csv: 190,875 rows  unique so far: 743,935
+[19:28:10] INFO:   TCP_IP-DDoS-ICMP7_train.pcap.csv: 186,022 rows  unique so far: 760,562
+[19:28:11] INFO:   TCP_IP-DDoS-ICMP8_train.pcap.csv: 193,340 rows  unique so far: 772,758
+[19:28:11] INFO:   TCP_IP-DDoS-SYN1_train.pcap.csv: 199,390 rows  unique so far: 915,715
+[19:28:12] INFO:   TCP_IP-DDoS-SYN2_train.pcap.csv: 203,669 rows  unique so far: 1,082,417
+[19:28:13] INFO:   TCP_IP-DDoS-SYN3_train.pcap.csv: 202,023 rows  unique so far: 1,283,574
+[19:28:13] INFO:   TCP_IP-DDoS-SYN4_train.pcap.csv: 196,880 rows  unique so far: 1,350,407
+[19:28:14] INFO:   TCP_IP-DDoS-TCP1_train.pcap.csv: 202,311 rows  unique so far: 1,432,396
+[19:28:15] INFO:   TCP_IP-DDoS-TCP2_train.pcap.csv: 197,081 rows  unique so far: 1,514,588
+[19:28:15] INFO:   TCP_IP-DDoS-TCP3_train.pcap.csv: 204,075 rows  unique so far: 1,526,745
+[19:28:16] INFO:   TCP_IP-DDoS-TCP4_train.pcap.csv: 200,998 rows  unique so far: 1,598,674
+[19:28:16] INFO:   TCP_IP-DDoS-UDP1_train.pcap.csv: 206,170 rows  unique so far: 1,804,844
+[19:28:17] INFO:   TCP_IP-DDoS-UDP2_train.pcap.csv: 207,295 rows  unique so far: 2,012,139
+[19:28:17] INFO:   TCP_IP-DDoS-UDP3_train.pcap.csv: 206,604 rows  unique so far: 2,218,743
+[19:28:18] INFO:   TCP_IP-DDoS-UDP4_train.pcap.csv: 206,343 rows  unique so far: 2,425,086
+[19:28:19] INFO:   TCP_IP-DDoS-UDP5_train.pcap.csv: 205,507 rows  unique so far: 2,630,593
+[19:28:20] INFO:   TCP_IP-DDoS-UDP6_train.pcap.csv: 202,247 rows  unique so far: 2,832,840
+[19:28:20] INFO:   TCP_IP-DDoS-UDP7_train.pcap.csv: 197,685 rows  unique so far: 3,030,525
+[19:28:21] INFO:   TCP_IP-DDoS-UDP8_train.pcap.csv: 204,105 rows  unique so far: 3,234,630
+[19:28:22] INFO:   TCP_IP-DoS-ICMP1_train.pcap.csv: 104,507 rows  unique so far: 3,307,528
+[19:28:22] INFO:   TCP_IP-DoS-ICMP2_train.pcap.csv: 96,977 rows  unique so far: 3,343,305
+[19:28:22] INFO:   TCP_IP-DoS-ICMP3_train.pcap.csv: 108,686 rows  unique so far: 3,352,068
+[19:28:23] INFO:   TCP_IP-DoS-ICMP4_train.pcap.csv: 106,122 rows  unique so far: 3,379,943
+[19:28:23] INFO:   TCP_IP-DoS-SYN1_train.pcap.csv: 111,431 rows  unique so far: 3,491,354
+[19:28:23] INFO:   TCP_IP-DoS-SYN2_train.pcap.csv: 111,647 rows  unique so far: 3,575,477
+[19:28:24] INFO:   TCP_IP-DoS-SYN3_train.pcap.csv: 108,190 rows  unique so far: 3,657,473
+[19:28:24] INFO:   TCP_IP-DoS-SYN4_train.pcap.csv: 110,635 rows  unique so far: 3,726,978
+[19:28:24] INFO:   TCP_IP-DoS-TCP1_train.pcap.csv: 95,407 rows  unique so far: 3,779,680
+[19:28:25] INFO:   TCP_IP-DoS-TCP2_train.pcap.csv: 95,521 rows  unique so far: 3,848,701
+[19:28:25] INFO:   TCP_IP-DoS-TCP3_train.pcap.csv: 95,968 rows  unique so far: 3,899,925
+[19:28:25] INFO:   TCP_IP-DoS-TCP4_train.pcap.csv: 93,488 rows  unique so far: 3,948,159
+[19:28:26] INFO:   TCP_IP-DoS-UDP1_train.pcap.csv: 137,011 rows  unique so far: 4,085,170
+[19:28:26] INFO:   TCP_IP-DoS-UDP2_train.pcap.csv: 140,492 rows  unique so far: 4,225,661
+[19:28:26] INFO:   TCP_IP-DoS-UDP3_train.pcap.csv: 146,146 rows  unique so far: 4,371,806
+[19:28:27] INFO:   TCP_IP-DoS-UDP4_train.pcap.csv: 143,301 rows  unique so far: 4,515,080
+[19:28:27] INFO: Treino: 7,160,831 linhas | 4,515,080 assinaturas únicas | NaN: 0 | 23.7s
+[19:28:27] INFO: ============================================================
+[19:28:27] INFO: Auditando partição de TESTE...
+[19:28:27] INFO:   ARP_Spoofing_test.pcap.csv: 1,744 rows  unique so far: 1,744
+[19:28:27] INFO:   Benign_test.pcap.csv: 37,607 rows  unique so far: 39,351
+[19:28:27] INFO:   MQTT-DDoS-Connect_Flood_test.pcap.csv: 41,916 rows  unique so far: 81,267
+[19:28:27] INFO:   MQTT-DDoS-Publish_Flood_test.pcap.csv: 8,416 rows  unique so far: 89,683
+[19:28:27] INFO:   MQTT-DoS-Connect_Flood_test.pcap.csv: 3,131 rows  unique so far: 92,814
+[19:28:27] INFO:   MQTT-DoS-Publish_Flood_test.pcap.csv: 8,505 rows  unique so far: 101,319
+[19:28:27] INFO:   MQTT-Malformed_Data_test.pcap.csv: 1,747 rows  unique so far: 103,066
+[19:28:27] INFO:   Recon-OS_Scan_test.pcap.csv: 3,834 rows  unique so far: 106,007
+[19:28:27] INFO:   Recon-Ping_Sweep_test.pcap.csv: 186 rows  unique so far: 106,176
+[19:28:27] INFO:   Recon-Port_Scan_test.pcap.csv: 22,622 rows  unique so far: 125,767
+[19:28:27] INFO:   Recon-VulScan_test.pcap.csv: 1,034 rows  unique so far: 126,740
+[19:28:28] INFO:   TCP_IP-DDoS-ICMP1_test.pcap.csv: 154,007 rows  unique so far: 138,359
+[19:28:28] INFO:   TCP_IP-DDoS-ICMP2_test.pcap.csv: 195,692 rows  unique so far: 146,413
+[19:28:29] INFO:   TCP_IP-DDoS-SYN_test.pcap.csv: 172,397 rows  unique so far: 235,334
+[19:28:29] INFO:   TCP_IP-DDoS-TCP_test.pcap.csv: 182,598 rows  unique so far: 244,069
+[19:28:30] INFO:   TCP_IP-DDoS-UDP1_test.pcap.csv: 205,654 rows  unique so far: 449,723
+[19:28:31] INFO:   TCP_IP-DDoS-UDP2_test.pcap.csv: 156,416 rows  unique so far: 606,139
+[19:28:31] INFO:   TCP_IP-DoS-ICMP_test.pcap.csv: 98,432 rows  unique so far: 614,590
+[19:28:31] INFO:   TCP_IP-DoS-SYN_test.pcap.csv: 98,595 rows  unique so far: 712,132
+[19:28:32] INFO:   TCP_IP-DoS-TCP_test.pcap.csv: 82,096 rows  unique so far: 754,715
+[19:28:32] INFO:   TCP_IP-DoS-UDP_test.pcap.csv: 137,553 rows  unique so far: 892,268
+[19:28:32] INFO: Teste:  1,614,182 linhas | 892,268 assinaturas únicas | NaN: 0 | 5.1s
+[19:28:32] INFO: ============================================================
+[19:28:32] INFO: Calculando intersecção treino ∩ teste...
+[19:28:32] INFO: Assinaturas compartilhadas: 461 | 0.0s
+[19:28:32] INFO: ============================================================
+[19:28:32] INFO: RESULTADO FINAL:
+[19:28:32] INFO:   Treino : 7,160,831 linhas | 2,645,751 duplicatas internas | NaN: 0
+[19:28:32] INFO:   Teste  : 1,614,182 linhas | 721,914 duplicatas internas | NaN: 0
+[19:28:32] INFO:   Cross-partition shared signatures: 461
+[19:28:32] INFO:   → 461 assinaturas de features idênticas aparecem em ambas as partições.
+[19:28:32] INFO: 
+Relatório salvo: /mnt/d/ares_paper/iomt_ids_project_autoencoder_improved/ares_autoencoder_improved_iomt_ids/audit_reports/crosspartition_audit.json
+[19:28:32] INFO: 
+--- Texto para o artigo (§3.6) ---
+[19:28:32] INFO: 461 exact cross-partition duplicate signatures found (row-hash on 45 numeric features).
+EXIT:True

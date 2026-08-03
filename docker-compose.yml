@@ -1,0 +1,24 @@
+# Convenience wrapper for the IoMT IDS artifact (SBSeg 2026).
+#
+# Build the image once:
+#   docker compose build
+#
+# Fast checks (no dataset required):
+#   docker compose run --rm artifact make smoke
+#   docker compose run --rm artifact make verify
+#
+# Reproduce claims (place CICIoMT2024 under ./data/train and ./data/test first;
+# see data/README.md). Regenerated outputs appear under ./results on the host:
+#   docker compose run --rm artifact make reproduce-autoencoder
+#   docker compose run --rm artifact make reproduce-supervised
+services:
+  artifact:
+    build: .
+    image: iomt-killchain-artifact:sbseg2026
+    volumes:
+      # Mount the dataset (read-only) for dataset-dependent experiments.
+      - ./data:/app/data:ro
+      # Persist regenerated results back to the host.
+      - ./results:/app/results
+    # Default: fast installation check. Override with `make <target>`.
+    command: make smoke

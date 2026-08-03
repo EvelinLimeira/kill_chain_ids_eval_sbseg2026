@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "split_seed": 42,
+  "reference_seed": 42,
+  "device": "cpu",
+  "run_tag": "camera_ready_v1",
+  "smoke_test": false,
+  "n_seeds": 5,
+  "run_dir": "D:\\ares_paper\\iomt_ids_project_autoencoder_improved\\ares_autoencoder_improved_iomt_ids\\results\\autoencoder_multiseed\\camera_ready_v1_windows_cpu",
+  "os_tag": "windows",
+  "timestamp_utc": "2026-07-25T20:14:23.220680+00:00",
+  "environment_consistent": true,
+  "note": "Primary results are mean +/- sample SD (ddof=1) with 95% Student-t CI across all seeds. No representative/best seed is selected. Seed 42 is a reference-artefact run only. The same benign validation set is used for early stopping AND threshold calibration. Inference timing starts from pre-extracted and preprocessed feature vectors."
+}

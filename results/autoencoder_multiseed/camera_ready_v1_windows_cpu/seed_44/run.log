@@ -1,0 +1,3 @@
+[17:11:34] INFO: === Worker seed=44 device=cpu smoke=False ===
+[17:11:34] INFO: device_requested=cpu device_detected=none device_used=cpu
+[17:14:21] INFO: Seed 44 complete: recall@P85=0.996704 fpr@P85=0.246311 tau=0.972768

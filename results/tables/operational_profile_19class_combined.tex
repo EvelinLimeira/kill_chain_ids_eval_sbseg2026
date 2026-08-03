@@ -1,0 +1,50 @@
+% Auto-generated consolidated operational profile (19-class partition).
+% Latency = mean single-flow inference (1,000 samples, first 100 discarded).
+% Throughput = full-test batch prediction (batch 512, mean of 5 passes, N/time).
+% All latency/throughput values measured in ONE environment:
+%   AMD Ryzen 9 7940HS, 48 GB RAM, NVIDIA RTX 4060 (8 GB), WSL Ubuntu-24.04,
+%   Python 3.12, TensorFlow 2.20 / Keras 3.13. Classical models are CPU-only.
+% Disk sizes: results/tables/resource_profiling_19-class.csv.
+% Train times: 19-class fixed run (experiment.log / resume logs); the
+%   autoencoder train time is the five-seed mean +/- SD (seeds 40-44).
+\begin{table}[htbp]
+\centering
+\caption{Operational profile on the 19-class test partition (single workstation).
+Neural models are profiled on both CPU and GPU; classical models are CPU-only.
+The autoencoder is the canonical seed-42 binary detector; its timed path
+includes reconstruction, per-flow MSE, and the P$_{85}$ decision.}
+\label{tab:operational}
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{\textbf{CPU}} & \multicolumn{2}{c}{\textbf{GPU}} & & \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+\textbf{Model} & \textbf{Lat.\ (ms)} & \textbf{Thr.\ (s$^{-1}$)} &
+\textbf{Lat.\ (ms)} & \textbf{Thr.\ (s$^{-1}$)} &
+\textbf{Disk (MB)} & \textbf{Train (s)} \\
+\midrule
+Random Forest       & 15.67 & 417{,}219   & --    & --        & 783.56 & 192.5 \\
+Logistic Regression & 0.032 & 4{,}565{,}432 & --    & --        & 0.01   & 1{,}154.0 \\
+LightGBM (Default)  & 2.57  & 206{,}904   & --    & --        & 3.78   & 270.4 \\
+LightGBM (Tuned)    & 5.22  & 4{,}888     & --    & --        & 134.21 & 8{,}087.6 \\
+1D-CNN              & 37.85 & 132{,}907   & 50.93 & 268{,}538 & 1.62   & 6{,}293.4 \\
+Light-CNN           & 37.77 & 83{,}639    & 52.71 & 242{,}944 & 0.14   & 265.8 \\
+Autoencoder         & 37.74 & 496{,}654   & 51.75 & 217{,}241 & 0.22   & $19.77\pm5.14$ \\
+\bottomrule
+\end{tabular}%
+}
+
+\vspace{2pt}
+\footnotesize
+\emph{Notes:} Latency = mean single-flow inference over 1{,}000 samples (first
+100 discarded); throughput = full-test batch prediction (internal batch 512,
+mean of 5 complete passes over 1{,}614{,}182 flows). All timings share one
+workstation (RTX~4060, WSL Ubuntu, TF~2.20). Classical sklearn/LightGBM models
+have no GPU inference path. Measurements cover the model-level path on
+pre-extracted, preprocessed features and exclude packet capture, flow
+reconstruction, and feature extraction. Disk sizes compare artifacts in
+different formats (\texttt{.pkl}/\texttt{.keras}). Training times are 19-class
+fixed-run values; the autoencoder value is the five-seed mean $\pm$ SD.
+\end{table}

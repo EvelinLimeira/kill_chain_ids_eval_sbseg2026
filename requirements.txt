@@ -1,0 +1,51 @@
+# =============================================================================
+# Requirements — IoMT IDS Artifact (SBSeg 2026)
+# Paper: Beyond Aggregate Accuracy: Kill Chain-Aware Evaluation of
+#        IoMT Intrusion Detection Models
+#
+# Versions measured on the reference environment:
+#   OS      : Ubuntu 22.04 (WSL2)
+#   Python  : 3.12.3
+#   Hardware: AMD Ryzen 9 7940HS, 48 GB RAM, NVIDIA RTX 4060 (8 GB)
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# GPU note:
+#   tensorflow==2.20.0 includes GPU support when CUDA 12.x + cuDNN 9.x
+#   are available. CPU-only execution works without any CUDA installation.
+#   The autoencoder and CNN training are significantly faster with a GPU,
+#   but all experiments can be reproduced on CPU.
+# =============================================================================
+
+# Core scientific stack
+numpy==2.4.2
+pandas==3.0.1
+scipy==1.17.1
+
+# Machine learning
+scikit-learn==1.8.0
+lightgbm==4.6.0
+
+# Deep learning
+tensorflow==2.20.0
+
+# Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Explainability
+shap==0.50.0
+lime==0.2.0.1
+
+# Statistical tests
+scikit-posthocs==0.12.0
+
+# Utilities
+joblib==1.5.3
+pyarrow==23.0.1
+psutil==7.2.2
+
+# Testing
+pytest==9.0.2
+hypothesis==6.151.9

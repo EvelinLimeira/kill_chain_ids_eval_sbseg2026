@@ -1,0 +1,8 @@
+Model,Latency_CPU_ms,Throughput_CPU_flows_s,Latency_GPU_ms,Throughput_GPU_flows_s,Disk_MB,Train_s,Train_source,Notes
+Random Forest,15.67,417219,,,783.56,192.5,experiment.log,CPU-only (no GPU inference path)
+Logistic Regression,0.032,4565432,,,0.01,1154.0,experiment.log,CPU-only
+LightGBM (Original),2.57,206904,,,3.78,270.4,experiment.log,CPU-only
+LightGBM (Tuned),5.22,4888,,,134.21,8087.6,experiment.log,CPU-only
+1D-CNN,37.85,132907,50.93,268538,1.62,6293.4,resume_19class.log,Neural; measured on both CPU and GPU
+Light-CNN,37.77,83639,52.71,242944,0.14,265.8,resume_final.log,Neural; measured on both CPU and GPU
+Autoencoder,37.74,496654,51.75,217241,0.22,19.77,multiseed_training_time_raw.csv (mean over seeds 40-44; SD 5.14),Neural; canonical seed-42 artifact; timed path = reconstruction + per-flow MSE + P85 decision

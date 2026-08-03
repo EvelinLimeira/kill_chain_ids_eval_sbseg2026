@@ -1,0 +1,31 @@
+# Virtual environments (rebuilt inside the image)
+.venv/
+venv/
+venv*/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+
+# Version control / IDE / OS
+.git/
+.gitignore
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dataset must be mounted at runtime, never baked into the image
+data/train/*.csv
+data/test/*.csv
+
+# Large regenerated models are not needed in the image (regenerated on demand)
+results/models/*.pkl
+results/models/*.keras
+
+# Stray logs
+/*.log
+/results/*.log

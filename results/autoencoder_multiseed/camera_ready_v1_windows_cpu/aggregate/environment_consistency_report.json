@@ -1,0 +1,78 @@
+{
+  "consistent": true,
+  "keys": {
+    "os_platform": {
+      "distinct_values": 1
+    },
+    "python_version": {
+      "distinct_values": 1
+    },
+    "tensorflow_version": {
+      "distinct_values": 1
+    },
+    "numpy_version": {
+      "distinct_values": 1
+    },
+    "pandas_version": {
+      "distinct_values": 1
+    },
+    "scikit_learn_version": {
+      "distinct_values": 1
+    },
+    "device_used": {
+      "distinct_values": 1
+    },
+    "architecture": {
+      "distinct_values": 1
+    },
+    "n_features": {
+      "distinct_values": 1
+    },
+    "batch_size": {
+      "distinct_values": 1
+    },
+    "max_epochs": {
+      "distinct_values": 1
+    },
+    "early_stopping_patience": {
+      "distinct_values": 1
+    },
+    "intra_op_threads": {
+      "distinct_values": 1
+    },
+    "inter_op_threads": {
+      "distinct_values": 1
+    },
+    "determinism_enabled": {
+      "distinct_values": 1
+    },
+    "split_seed": {
+      "distinct_values": 1
+    },
+    "loader_split_seed": {
+      "distinct_values": 1
+    },
+    "dataset_fingerprint": {
+      "distinct_values": 1
+    },
+    "x_test_fingerprint": {
+      "distinct_values": 1
+    },
+    "feature_list_fingerprint": {
+      "distinct_values": 1
+    },
+    "class_list_fingerprint": {
+      "distinct_values": 1
+    },
+    "benign_split_train_idx_fingerprint": {
+      "distinct_values": 1
+    },
+    "benign_split_val_idx_fingerprint": {
+      "distinct_values": 1
+    },
+    "feature_names": {
+      "distinct_values": 1
+    }
+  },
+  "discrepancies": []
+}
