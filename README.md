@@ -19,7 +19,7 @@ aggregate accuracy toward phase-aware, class-disaggregated, and statistically
 grounded assessment protocols.
 
 This repository contains the source code, configurations, reference results,
-and documentation associated with the SBSeg 2026 paper. The camera-ready
+and documentation associated with the SBSeg 2026 accepted paper. The camera-ready
 manuscript is available at
 [`manuscript/27104_Camera-ready_SeyJ88S.pdf`](manuscript/27104_Camera-ready_SeyJ88S.pdf).
 
@@ -64,20 +64,6 @@ This README is organized into the following sections:
 - **Reproducible environment:** pinned Python dependencies, Dockerfile,
   Docker Compose, Makefile targets, and synthetic smoke tests.
 
-## Badges Considered
-
-The authors request consideration for the following badges:
-
-- **Artifacts Available (SeloD):** the artifact is provided in a stable
-  repository with documentation and reference results. Eligibility under
-  restricted access must be confirmed by the CTA.
-- **Artifacts Functional (SeloF):** installation and core functionality can be
-  checked through `make smoke` and `make verify`.
-- **Artifacts Sustainable (SeloS):** the implementation is modularized and the
-  paper-to-artifact mapping is documented in [`PROVENANCE.md`](PROVENANCE.md).
-- **Experiments Reproducible (SeloR):** the main experimental workflows are
-  automated and documented below.
-
 ## Basic Information
 
 ### Reference Environment
@@ -101,7 +87,7 @@ The authors request consideration for the following badges:
 | 19-class supervised workflow | 8 cores recommended | Up to approximately 50 GB | Optional | Approximately 20 GB plus dataset/models |
 | Full experiment | 8 cores recommended | Up to approximately 50 GB | Recommended for neural timing | Approximately 30 GB plus dataset/models |
 
-A reviewer with limited memory may execute only the 19-class scenario instead
+A user with limited memory may execute only the 19-class scenario instead
 of all three classification granularities. Measured runtimes are documented in
 [`docs/runtime_reference.md`](docs/runtime_reference.md).
 
