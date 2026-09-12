@@ -19,7 +19,7 @@ aggregate accuracy toward phase-aware, class-disaggregated, and statistically
 grounded assessment protocols.
 
 This repository contains the source code, configurations, reference results,
-and documentation associated with the SBSeg 2026 accepted paper. The camera-ready
+and documentation associated with the SBSeg 2026 accepted paper available in https://sol.sbc.org.br/index.php/sbseg. The camera-ready
 manuscript is available at
 [`manuscript/27104_Camera-ready_SeyJ88S.pdf`](manuscript/27104_Camera-ready_SeyJ88S.pdf).
 
